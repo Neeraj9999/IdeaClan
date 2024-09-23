@@ -152,7 +152,7 @@ export default function useHome() {
         },
       }),
       columnHelper.accessor("isActive", {
-        header: () => <span>DOB</span>,
+        header: () => <span>Status</span>,
         cell: (info) => {
           const isActive =
             info.renderValue() === "true" ? "Active" : "InActive";
